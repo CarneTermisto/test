@@ -1,0 +1,27 @@
+.newsbox a{
+    color: black;
+    font-size: 14px;
+}
+.newsbox h2 {
+    position: relative;
+}
+
+.newsbox span{
+    position: absolute;
+    height:2px;
+    width:34px;
+    bottom: 0px;
+    left: 0px;
+    background-color: blue;
+}
+
+.newsbox
+{
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+.newsbox h2:hover .newsbox span {
+    height:20px;
+}
+

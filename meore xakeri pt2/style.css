@@ -1,0 +1,42 @@
+.request {
+    background-image:url(img.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+   }
+
+.input-group{
+    margin: auto;
+}
+
+.row p
+{
+  color: white;
+}
+
+section
+{
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.form-control{
+    background-color: transparent;
+    border: none;
+    color: white;
+    display: flex;
+    border-bottom: 1px solid orangered;
+}
+
+.form-control:hover {
+    background-color: transparent;
+
+}
+
+.form-control:focus{
+    background-color: transparent;  
+}
+
+button{
+    background-color: blue;
+}
